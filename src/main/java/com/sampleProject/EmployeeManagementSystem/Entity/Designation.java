@@ -9,6 +9,6 @@ import lombok.Data;
 public class Designation {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
-    private Long DesigId;
-    private String DesigName;
+    private Long DesignationId;
+    private String DesignationName;
 }

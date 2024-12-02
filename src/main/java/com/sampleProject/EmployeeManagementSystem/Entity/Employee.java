@@ -11,11 +11,11 @@ import java.util.Date;
 public class Employee {
   @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long EmpId;
-    private String EmpFirstName;
-    private  String EmpLastName;
+    private Long EmployeeId;
+    private String EmployeeFirstName;
+    private  String EmployeeLastName;
     private int Age;
     private String email;
-    private Date DateOfJoining;
+    private String DateOfJoining;
 
 }
